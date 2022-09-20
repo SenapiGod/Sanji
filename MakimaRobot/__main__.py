@@ -89,23 +89,23 @@ PM_START_TEXT = """
 *ʜᴇʏ* {}, *ᴍʏ ɴᴀᴍᴇ ɪs* {}! ㅤ
 ɪ ᴀᴍ ᴀ ᴅᴇᴠɪʟ ʜᴜɴᴛᴇʀ ғʀᴏᴍ ᴄʜᴀɪɴsᴀᴡ ᴍᴀɴ.
 ɪ ᴀᴍ  ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ,ʙᴜɪʟᴛ ғᴏʀ ᴡᴇᴇʙs.
-ɪ ᴀᴍ sᴘᴇᴄɪᴀʟɪᴢᴇᴅ ɪɴ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘs ᴏғ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛɪᴇs[❃](https://telegra.ph/file/2e306bd8e0a4e7066ad4b.jpg)!
+ɪ ᴀᴍ sᴘᴇᴄɪᴀʟɪᴢᴇᴅ ɪɴ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘs ᴏғ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛɪᴇs[❃](https://te.legra.ph/file/b85d7c1f5abc0916c6400.mp4)!
 """
 
 buttons2 = [
     [
         InlineKeyboardButton(
             text="Start me🤖",
-            url=f"https://t.me/Makima_UltraProxbot",
+            url=f"https://t.me/vinsmoke_sanjirobot",
         ),
         InlineKeyboardButton(
             text="Commands and help💡",
-            url=f"http://t.me/Makima_UltraProxbot?start=help",
+            url=f"http://t.me/{BOT_USERNAME}?start=help",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Bot support🚑", url=f"https://t.me/kakashi_bots_support"
+            text="Bot support🚑", url="https://t.me/Ft999_Support"
         ),
     ],
 ]
@@ -120,15 +120,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🛠️𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/kakashi_bots_updates"
+            text="🛠️𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/Ft999_Update"
         ),
         InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="Vc music 🎧", url=f"https://t.me/Makima_UltraProxbot?start=vhelp"
+            text="Vc music 🎧", url=f"https://t.me/{BOT_USERNAME}?start=vhelp"
         ),
-        InlineKeyboardButton(text="🌐𝙊𝙪𝙧 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url=f"https://t.me/Otaku_Binge"),
+        InlineKeyboardButton(text="🌐𝙊𝙪𝙧 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url=f"https://t.me/Ft999_eXe"),
     ],
     [
         InlineKeyboardButton(text="💡𝙃𝙚𝙡𝙥 𝙖𝙣𝙙 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="help_back"),
