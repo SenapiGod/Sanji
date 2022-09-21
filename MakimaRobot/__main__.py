@@ -157,7 +157,7 @@ DONATE_STRING = """
 
 Heya, glad to hear you want to donate!
 Sanji is hosted on one of 999 Servers and doesn't require any donations as of now but You can donate to my friend for helping me, 𝓚𝒶кคѕⒽᎥ ђ�ᗩЌ𝒆
-There is a way of supporting me; [contact him](https://t.me/SIXTH_H0KAGE).
+There is a way of supporting him; [contact him](https://t.me/SIXTH_H0KAGE).
 """
 
 IMPORTED = {}
