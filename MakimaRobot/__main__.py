@@ -87,25 +87,25 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴇʏ* {}, *ᴍʏ ɴᴀᴍᴇ ɪs* {}! ㅤ
-ɪ ᴀᴍ ᴀ ᴅᴇᴠɪʟ ʜᴜɴᴛᴇʀ ғʀᴏᴍ ᴄʜᴀɪɴsᴀᴡ ᴍᴀɴ.
-ɪ ᴀᴍ  ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ,ʙᴜɪʟᴛ ғᴏʀ ᴡᴇᴇʙs.
-ɪ ᴀᴍ sᴘᴇᴄɪᴀʟɪᴢᴇᴅ ɪɴ ᴍᴀɴᴀɢɪɴɢ ɢʀᴏᴜᴘs ᴏғ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛɪᴇs[❃](https://te.legra.ph/file/b85d7c1f5abc0916c6400.mp4)!
+ɪ ᴄᴀɴ ꜰɪɢʜᴛ ᴀɴᴅ ᴄᴏᴏᴋ ꜰᴏʀ ʏᴏᴜʀ ʟᴀᴅʏ 
+ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴠɪɴꜱᴍᴏᴋᴇ ꜱᴀɴᴊɪ ꜰʀᴏᴍ ᴏɴᴇ ᴘɪᴇᴄᴇ
+[❃](https://telegra.ph/file/93a00acf1e22546b3568d.jpg)!
 """
 
 buttons2 = [
     [
         InlineKeyboardButton(
-            text="Start me🤖",
+            text="Start me",
             url=f"https://t.me/vinsmoke_sanjirobot",
         ),
         InlineKeyboardButton(
-            text="Commands and help💡",
+            text="Commands",
             url=f"http://t.me/{BOT_USERNAME}?start=help",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Bot support🚑", url="https://t.me/Ft999_Support"
+            text="Bot support", url="https://t.me/Ft999_Support"
         ),
     ],
 ]
@@ -114,22 +114,22 @@ buttons2 = [
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ 𝘼𝙙𝙙 𝙈𝙖𝙠𝙞𝙢𝙖 𝙏𝙤 𝙈𝙖𝙣𝙖𝙜𝙚 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕",
+            text="➕ Add Sanji To your Group  ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🛠️𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/Ft999_Update"
+            text="𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=f"https://t.me/Ft999_Update"
         ),
         InlineKeyboardButton(text="💬𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
-    [
-        InlineKeyboardButton(
-            text="Vc music 🎧", url=f"https://t.me/{BOT_USERNAME}?start=vhelp"
-        ),
+    
+        
+            
+      [
         InlineKeyboardButton(text="🌐𝙊𝙪𝙧 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url=f"https://t.me/Ft999_eXe"),
-    ],
+    ]
     [
         InlineKeyboardButton(text="💡𝙃𝙚𝙡𝙥 𝙖𝙣𝙙 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="help_back"),
     ],
@@ -138,7 +138,7 @@ buttons = [
 
 HELP_STRINGS = f"""
 *ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.*
-ɪ'ᴍ ᴀ ᴘᴀʀᴛ ᴏғ ᴏᴛᴀᴋᴜ • ʙɪɴɢᴇ
+ɪ'ᴍ ᴀ ᴘᴀʀᴛ ᴏғ 999 ɢᴀɴɢ
 ʜᴀᴠᴇ ᴀ ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ғᴏʀ ᴀɴ ɪᴅᴇᴀ ᴏғ sᴏᴍᴇ ᴏғ ᴛʜᴇ ᴛʜɪɴɢs ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴡɪᴛʜ
 
 ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ: 
@@ -157,7 +157,7 @@ DONATE_STRING = """
 
 Heya, glad to hear you want to donate!
 Makima is hosted on one of BINGE Servers and doesn't require any donations as of now but You can donate to the original writer of the Base code, 𝓚𝒶кคѕⒽᎥ ђ𝔞𝓉ᗩЌ𝒆
-There is a way of supporting me; [contact me](https://t.me/SIXTH_H0KAGE).
+There is a way of supporting me; [contact me](https://t.me/Invincible_itAchi).
 """
 
 IMPORTED = {}
@@ -643,7 +643,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1937701729 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {BOT_NAME} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [𝓚𝒶кคѕⒽᎥ ђ𝔞𝓉ᗩЌ𝒆 ⸙『𝕭𝖎𝖓𝖌𝖊』 ᭄™](https://t.me/SIXTH_H0KAGE).",
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {BOT_NAME} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀƒтяя](https://t.me/Invincible_itAchi).",
                 parse_mode=ParseMode.MAR,
                 disable_web_page_preview=True,
             )
@@ -691,7 +691,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/4f7104f92b2b58356e49a.jpg",
+                animation="https://telegra.ph/file/95e5d3747e25ba8cfeaa7.jpg",
                 caption=f"""
 ㅤ♦️ {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
